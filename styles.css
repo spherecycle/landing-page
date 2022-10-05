@@ -12,6 +12,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -25,5 +31,109 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
   }
+
+.footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+}
+
+.one {
+    background-color: #1F2937;
+    display: flex;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.image-row {
+    display: flex;
+}
+
+.three {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-title {
+    font-weight: bold;
+    color: white;
+}
+
+.call-text {
+    color: white;
+}
