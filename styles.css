@@ -2,13 +2,22 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    overflow: scroll;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.margin {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px 450px;
+}
+
 .header {
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,63 +27,80 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 10px 0px;
 }
 
 .header-links {
     list-style-type: none;
-    align-self: flex-end;
     display: flex;
     flex-direction: row;
-    padding: 0px;
-    margin: 0px;
+    align-self: flex-start;
+
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    margin: 0px 10px;
   }
 
 .footer {
-    height: 30px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items:center;
     background-color: #1F2937;
     color: white;
+    flex-shrink: 0;
 }
 
 button {
     background-color: #3882F6;
     color: white;
-    border-color: white;
+    border-radius: 8px;
 }
+
+.button-intro {
+    border-color: #3882F6;
+    padding: 5px 30px;
+    margin-top: 10px;
+}
+
 
 .one {
     background-color: #1F2937;
     display: flex;
-
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin: 100px 0px;
 }
 
 .intro-title {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    width: 60%;
 }
 
 .intro-text {
     font-size: 18px;
     color: #E5E7EB;
+    width: 60%;
 }
 
-.one-image {
+.illustration {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 100px 0px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .two {
@@ -92,10 +118,36 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    margin: 50px 0px;
 }
 
 .image-row {
     display: flex;
+    margin: 30px 0px 100px 0px;
+    justify-content: center;
+}
+
+.info-box {
+    padding: 100px 80px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-right-width: 4px;
+    border-right-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+
+.image-and-text {
+    margin: 25px;
+}
+
+.subtext {
+    color: gray;
 }
 
 .three {
@@ -104,14 +156,25 @@ button {
     flex-direction: column;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 450px;
+}
+
 .quote-text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
+    display: flex;
+
 }
 
 .quote-author {
     font-weight: bold;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 100px;
 }
 
 .four {
@@ -122,6 +185,9 @@ button {
 .sign-up {
     background-color: #3882F6;
     display: flex;
+    padding: 40px 100px;
+    margin: 50px;
+    border-radius: 8px;
 }
 
 .call-to-action {
@@ -137,3 +203,11 @@ button {
 .call-text {
     color: white;
 }
+
+.button-sign {
+    border-color: white;
+    margin-left: 200px;
+    padding: 5px 30px;
+}
+
+
